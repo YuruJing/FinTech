@@ -1,7 +1,7 @@
 # CommandLine Apps
 The command-line application simplifies stock analysis and portfolio management for users of all skill levels.
 
-
+## App Usage
 ## Modules
 - **<ins>get_stocks:</ins>**
   1. *<ins>get_stock_tickers:</ins>* (automatically scrape sp500 companies stock tickers in Wiki)
@@ -32,6 +32,18 @@ The command-line application simplifies stock analysis and portfolio management 
      ![stock_returns](https://github.com/YuruJing/FinTech/assets/96546138/a4a017f7-7411-4598-98ee-e4c2c1a15995)
 
 - **<ins>plotting:</ins>**
+  1. *<ins>reg_plot:</ins>* <br />
+     Regression relationship between all selected stock returns and our benchmarks'. <br />
 
+     ![aapl_reg](https://github.com/YuruJing/FinTech/assets/96546138/b7639a02-d3cc-4800-8fd3-97fae3ee0b02)
+     
+     ![msft_reg](https://github.com/YuruJing/FinTech/assets/96546138/5032c48b-12cb-4f45-8bff-fdbb99c5ec45)
+
+- **<ins>portfolio:</ins>**
+  1. *<ins>portf_rtn:</ins>* <br />
+  
+  2. *<ins>portf_vol:</ins>* <br />
+  
+  3. *<ins>mk_portfs:</ins>* <br />
 
 

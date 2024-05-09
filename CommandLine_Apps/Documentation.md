@@ -2,6 +2,43 @@
 The command-line application simplifies stock analysis and portfolio management for users of all skill levels.
 
 ## App Usage
+(very simple to use: users can get all stock analysis, portfolio management, and even time series forcasting by simply choosing Y/N (yes or no), stock tickers, date range, and model names) <br />
+
+**MyApp Workflow for users Example**
+```
+"Do you want to check sp500 companies tickers (Y/N)?"   ---(Y or N)
+```
+```
+"Type Y to retrieve today benchmark stock prices, type N to customize your own stock price retrieval):"    ---(Y or N)
+
+"Type single/multiple stock tickers you want to retrieve:"   ---(stock tickers)
+
+"Type start date you want to enquire (if only want to price of today, type T):"     ---(start date or T)
+
+"Type end date you want to enquire:"    ---(end start)
+```
+$\textcolor{red}{(automatically\ scrape\ stock\ prices\ and\ calculate\ stock\ simple\ and\ log\ returns)}$
+
+```
+"Do you want to check descriptive statistics for all stock returns?(Y/N)"    ---(Y or N)
+"Do you want to show stock plots? (Y/N)"    ---(Y or N)
+"Please type window size (integer) for moving average and volatility:"    ---(int days)
+```
+```
+"Do you want to check regression plots (Y/N)?"   ---(Y or N)
+```
+```
+"Do you want to make a portfolio or not (Y/N)?"    ---(Y or N)
+"Do you want to use the above simple returns to make your portfolio? (Y/N)"    ---(Y or N)
+"Type your own stock tickers to make a new portfolio:"    ---(stock tickers)
+"Which year do you want to use to make your portfolio?"   ---(int year)
+```
+$\textcolor{red}{(automatically\ get\ maximum\ sharpe\ ratio\ portfolio\, \ minimum\ volatility\ portfolio\ and\ all\ portfolios\ table)}$
+```
+"Do you want to get financial indicators (Y/N)?"    ---(Y or N)
+```
+$\textcolor{red}{(all\ stock\ tickers\ and\ stock\ date\ range\ input)}$
+
 ## Modules
 - **<ins>get_stocks:</ins>**
   1. *<ins>get_stock_tickers:</ins>* (automatically scrape sp500 companies stock tickers in Wiki)
@@ -66,7 +103,10 @@ The command-line application simplifies stock analysis and portfolio management 
      ![features_extract](https://github.com/YuruJing/FinTech/assets/96546138/33941bcc-c7de-4f7e-8697-256c4b527a6e)
      
 - **<ins>models:</ins>** (general dataloaders with slices of features and forcasting models for time series forcasting). <br />
-  1. *<ins>LSTM:</ins>* <br/> The Deep Learning model for time series forcasting. 
+  1. *<ins>LSTM:</ins>* <br/> The Deep Learning model for time series forcasting.
+ 
+## Future Improvements and Potential Bugs
+
 
      
 

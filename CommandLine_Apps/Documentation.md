@@ -39,11 +39,35 @@ The command-line application simplifies stock analysis and portfolio management 
      
      ![msft_reg](https://github.com/YuruJing/FinTech/assets/96546138/5032c48b-12cb-4f45-8bff-fdbb99c5ec45)
 
-- **<ins>portfolio:</ins>**
+- **<ins>portfolio:</ins>** (Make portfolios automatically with the assets user chose)
   1. *<ins>portf_rtn:</ins>* <br />
-  
+     Calculate the return of the portfolio
   2. *<ins>portf_vol:</ins>* <br />
-  
+     Calculate the volatility of the portfolio
   3. *<ins>mk_portfs:</ins>* <br />
+     Create the efficient frontier for the portfolio and returns all portfolios' table. <br />
+
+     ![efficient_frontier](https://github.com/YuruJing/FinTech/assets/96546138/9daa7c13-332d-474e-ae20-d7da5965500c)
+     
+     The optimal portfolios for selected assets: (greatest return or lowest risk) <br />
+
+     ![portfolio_results](https://github.com/YuruJing/FinTech/assets/96546138/4c6bdfcb-c580-4007-962b-013a53a4c9a6)
+
+- **<ins>finance_indicators:</ins>** (Calculate the most important financial indicators and extract final features for future time series forcasting.) <br />
+  1. *<ins>MAV:</ins>* <br />
+     Calculate the moving average and volatility of the adjusted close prices.
+  2. *<ins>RSI:</ins>* <br />
+     Calculate the relative strength index of the adjusted close prices. 
+  3. *<ins>MACD:</ins>* <br />
+     Calculate the moving average convergence divergence of the adjusted close prices.
+  4. *<ins>extract_features:</ins>* <br />
+     Combine all the significant financial indicators with original scraping (open, close, adjusted close, high, low, volume) and returns. <br />
+     
+     ![features_extract](https://github.com/YuruJing/FinTech/assets/96546138/33941bcc-c7de-4f7e-8697-256c4b527a6e)
+     
+- **<ins>models:</ins>** (general dataloaders with slices of features and forcasting models for time series forcasting). <br />
+  1. *<ins>LSTM:</ins>* <br/> The Deep Learning model for time series forcasting. 
+
+     
 
 

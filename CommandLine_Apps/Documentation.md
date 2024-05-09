@@ -33,7 +33,7 @@ $\textcolor{red}{(automatically\ scrape\ stock\ prices\ and\ calculate\ stock\ s
 "Type your own stock tickers to make a new portfolio:"    ---(stock tickers)
 "Which year do you want to use to make your portfolio?"   ---(int year)
 ```
-$\textcolor{red}{(automatically\ get\ maximum\ sharpe\ ratio\ portfolio\, \ minimum\ volatility\ portfolio\ and\ all\ portfolios\ table)}$
+$\textcolor{red}{(get\ maximum\ sharpe\ ratio\ portfolio\, \ minimum\ volatility\ portfolio\ and\ all\ portfolios)}$
 ```
 "Do you want to get financial indicators (Y/N)?"    ---(Y or N)
 ```

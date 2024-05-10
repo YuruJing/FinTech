@@ -106,8 +106,20 @@ $\textcolor{red}{(all\ stock\ tickers\ and\ stock\ date\ range\ input)}$
   1. *<ins>LSTM:</ins>* <br/> The Deep Learning model for time series forcasting.
  
 ## Future Improvements and Potential Bugs
+**<ins>Potential Bugs could improve:</ins>** <br />
 
+:white_large_square: In no trading days, defualt setting (scrape today's price) may cause errors. <br />
+:white_large_square: Add extra white space for date inputs may casue errors. <br />
+:white_large_square: Add extra descriptions for calcuating the descrptive statistics (use only today's prices may cause errors). <br />
 
+**<ins>Features Extension and Improvement:</ins>** <br />
      
-
+:white_large_square: Enquire any valid stock tickers by typing the company name. <br />
+:white_large_square: Add different leverage for making portfolios. <br />  
+:white_large_square: Add further risk analysis. <br /> 
+:white_large_square: Integrate stock price function into extract features function. <br /> 
+:white_large_square: Write another sliding window function in extract features function. <br /> 
+:white_large_square: Extend time series forcasting features (add more options for other advanced/simple algorithms, automatically feature preprocessing.) <br /> 
+:white_large_square: Implement only 1 or 2 features you wish independently (add more flexibility) <br /> 
+:white_large_square: Readjust functions parameters. <br /> 
 
